@@ -2,15 +2,15 @@ PREFIX = /usr
 MANDIR = $(PREFIX)/share/man
 
 all:
-	@echo Run \'make install\' to install Neofetch.
+	@echo Run \'make install\' to install Flexfetch.
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
-	@cp -p neofetch $(DESTDIR)$(PREFIX)/bin/neofetch
-	@cp -p neofetch.1 $(DESTDIR)$(MANDIR)/man1
+	@cp -p neofetch $(DESTDIR)$(PREFIX)/bin/flexfetch
+	@cp -p flexfetch.1 $(DESTDIR)$(MANDIR)/man1
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/neofetch
 
 uninstall:
-	@rm -rf $(DESTDIR)$(PREFIX)/bin/neofetch
-	@rm -rf $(DESTDIR)$(MANDIR)/man1/neofetch.1*
+	@rm -rf $(DESTDIR)$(PREFIX)/bin/flexfetch
+	@rm -rf $(DESTDIR)$(MANDIR)/man1/flexfetch.1*
