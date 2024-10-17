@@ -7,7 +7,7 @@ all:
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
-	@cp -p neofetch $(DESTDIR)$(PREFIX)/bin/flexfetch
+	@cp -p flexfetch $(DESTDIR)$(PREFIX)/bin/flexfetch
 	@cp -p flexfetch.1 $(DESTDIR)$(MANDIR)/man1
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/flexfetch
 
