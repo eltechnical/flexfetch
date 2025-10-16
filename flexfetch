@@ -73,6 +73,7 @@ print_info() {
     info "CPU" cpu
     info "GPU" gpu
     info "Memory" memory
+    info "Fetch Utility Information" Flexfetch 1.0.1 based off Neofetch 7.1.0
 
     # info "GPU Driver" gpu_driver  # Linux/macOS only
     # info "Disk" disk
