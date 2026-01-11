@@ -7,9 +7,12 @@ All of the project's potential future updates will instead happen on eltechnical
 ## Q&A
 Q: Will this project go back?
 A: It won't go back due to the successor eltechnical/ultrafetch.
+__
 Q: Was this project made with a concept of "if ain't broke, dont fix it"?
 A: No, It was meant to have the best user experience and easy configuration, not the most stable fetch utility ever.
+__
 Q: What new distros could've been added into this project?
 A: Kummander Linux, KahelOS, and Bayanihan Linux.
+__
 Q: Why is it discontinued?
 A: Because of the successor eltechnical/ultrafetch and the inefficiency of bash code in the project due to the thousands of lines of code in the base (dylanaraps/neofetch).
