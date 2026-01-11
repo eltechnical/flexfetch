@@ -6,13 +6,17 @@ The fresh start of a new fetch utility can help me get more time into what I can
 All of the project's potential future updates will instead happen on eltechnical/ultrafetch for further efficiency and better workloads. eltechnical/ultrafetch will have more hardware-software integration due to the use of C and will increase the overall performance of the fetch utility by a big number.
 ## Q&A
 Q: Will this project go back?
+________________________________________________________________
 A: It won't go back due to the successor eltechnical/ultrafetch.
 ________________________________________________________________
 Q: Was this project made with a concept of "if ain't broke, dont fix it"?
+________________________________________________________________
 A: No, It was meant to have the best user experience and easy configuration, not the most stable fetch utility ever.
 ________________________________________________________________
 Q: What new distros could've been added into this project?
+________________________________________________________________
 A: Kummander Linux, KahelOS, and Bayanihan Linux.
 ________________________________________________________________
 Q: Why is it discontinued?
+________________________________________________________________
 A: Because of the successor eltechnical/ultrafetch and the inefficiency of bash code in the project due to the thousands of lines of code in the base (dylanaraps/neofetch).
